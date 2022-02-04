@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/kanyeTalking.jpg);
+    background-size: 100%;
+    
+}
+
+button {
+    position: absolute;
+    width: 294px;
+    height: 64px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    font-family: Roboto;
+    font-size: 150%;
+    color: #000000;
+}
+
+#main {
+    position: absolute;
+    width: 500px;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, 0px);
+}
+
+#main > div, h2 {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 200%;
+    color: #000000;
+}
